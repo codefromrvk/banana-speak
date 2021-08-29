@@ -1,11 +1,14 @@
 // let a = prompt("enter");
 // console.log(a);
-let v = document.querySelector("#click");
-console.log(v);
+let btnTranslate = document.querySelector("#btn-translate");
 
-function fun(v) {
-    console.log(v);
-}
+let text = document.querySelector("#text");
 
-fun(v);
+console.log(text)
+btnTranslate.addEventListener("click", () => {
 
+    console.log("clicked");
+    console.log(text.value);
+
+
+})
