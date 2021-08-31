@@ -7,47 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>banana speak</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        .head {
-            background-color:
-                #faf6e2;
-            text-align: center;
-            color: black;
-            /* text-shadow: 2px 2px rgb(39, 38, 38); */
-            /* margin: auto; */
-        }
-
-        #text {
-            margin: auto;
-            opacity: 0.5;
-        }
-
-        #btn-translate {
-            display: block;
-            margin: 1rem auto;
-            cursor: pointer;
-            background-color: #ffff7c;
-
-        }
-
-        #btn-translate:hover {
-            background-color: #eeee40;
-        }
-
-
-        .container {
-            margin: 3rem auto;
-            background-image: url(/images/min.jpg);
-            width: 100%;
-            height: 400px;
-
-            background-size: 100% 100%;
-            border: 1px solid black;
-
-            padding-top: 4rem
-        }
-    </style>
-
 
 </head>
 
@@ -56,11 +15,12 @@
         BANANA SPEAK
     </h1>
     <div class="container">
-        <textarea placeholder="Type anything in English and we will convert it to banana" id="text" cols="30"
+        <textarea placeholder="Type anything in English and it will get converted to banana..." id="text" cols="30"
             rows="10"></textarea>
         <button id="btn-translate">Translate 🍌</button>
 
         <div id="divOutput">
+            Translated text will appear here
         </div>
 
     </div>

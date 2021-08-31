@@ -15,7 +15,6 @@ textarea{
  
  
  #divOutput{
-     border: 2px solid black;
      height:10vh;
      display:block;
      margin:1rem;
@@ -23,3 +22,44 @@ textarea{
      opacity: 0.5;
      background-color: rgb(224, 224, 162);
  }
+
+
+ .head {
+     background-color:
+         #faf6e2;
+     text-align: center;
+     color: black;
+     text-shadow: 1px 1px rgb(244 199 44);
+     /* margin: auto; */
+ }
+
+ #text {
+     margin: auto;
+     opacity: 0.5;
+ }
+
+ #btn-translate {
+     display: block;
+     margin: 1rem auto;
+     cursor: pointer;
+     background-color: #ffff7c;
+
+ }
+
+ #btn-translate:hover {
+     background-color: #eeee40;
+ }
+
+
+ .container {
+     margin: 3rem auto;
+     background-image: url(/images/min.jpg);
+     width: 100%;
+     height: 400px;
+
+     background-size: 100% 100%;
+
+     padding-top: 4rem
+ }
+
+
